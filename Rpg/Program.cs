@@ -20,8 +20,9 @@ namespace Rpg
             rpg.Arus.Add(new Arus("The Wizard", 100, HeroType.Wizard));
             rpg.SaveChanges();
            
-            System.Console.WriteLine(arus1);
+            System.Console.WriteLine(arus1);            
             System.Console.WriteLine(arus2);
+            arus1.Attack();
             
             
 
